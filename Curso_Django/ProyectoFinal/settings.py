@@ -60,7 +60,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         
-        'DIRS': ['E:/Santy/Programacion/curso_django/Curso_Django/ProyectoFinal/templetes'], #Localizacion de todos los templates raiz
+        'DIRS': ['E:/Santy/Programacion/CursoDjango/Curso_Django/ProyectoFinal/templetes'], #Localizacion de todos los templates raiz
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
