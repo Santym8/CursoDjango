@@ -9,7 +9,11 @@
 <div class="contenedorFormulario">
 
     {% if "valido" in request.GET %}
-    <p style="color: white;">Informacion enviada correctamente</p>
+    <p style="color: white; text-align: center;">Informacion enviada correctamente</p>
+    {% endif %}
+    
+    {% if "novalido" in request.GET %}
+    <p style="color: white; text-align: center;">ERROR</p>
     {% endif %}
     
     <form action="" method="POST" style="text-align: center;">
